@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShoomRework</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css"/>
+    <link rel="stylesheet" href="media.css"/>
+</head>
+<body>
+      <header id="hola" class="wow fadeInDown" data-wow-delay="0,5s">
+          <div class="mobile_menu">
+              <h5 class="left">Shoom'blog</h5>
+
+              <div class="wow slideInRight hamburger" data-wow-delay ="0.6s">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+          </div>
+      </header>
+      <!----main content here--->
+      <main>
+          <div class="row mt-60">
+              <div class="design col first_col_bg wow fadeInLeft" data-wow-delay="1s">
+                  <span class="icon"></span>
+                   <h3>Веб-дизайн</h3>
+                   <p>Рисую веб дизайн, веб интерфейсы для приложений и программ, также создаю свой уникальный дизайн</p>
+              </div>
+              <div class="frontend col sec_col_bg wow fadeInLeft" data-wow-delay="1.5s">
+                  <span class="icon"></span>
+                  <h3>Frontend</h3>
+                  <p>Сверстаю сайт любой сложности будь то интернет магазин или лендинг, пишу веб интерфейсы на Javascript, HTML5, CSS3</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="backend col third_col_bg wow fadeInLeft" data-wow-delay="2s">
+                  <span class="icon"></span>
+                  <h3>Backend</h3>
+                  <p>Делаю минимальный backend, натягиваю верстку на Wordpress,также администрирую сервера на linux</p>
+              </div>
+              <div class="other col fourth_col_bg wow fadeInLeft" data-wow-delay="2.5s">
+                  <span class="icon"></span>
+                  <h3>Прочее</h3>
+                  <p>Уверенные знания HTML5 и CSS3, использую GIT и SVN, каждый день учусь чему то новому</p>
+              </div>
+          </div>
+      </main>
+      <!---portfolio--->
+      <section id="portfolio" class="portfolio">
+         <div class="head wow bounceInDown" data-wow-delay="0.4s">
+             <img src="img/blog_logo.png" alt=""/>
+         </div>
+          <ul onclick ="a" class="more wow fadeInLeft" data-wow-delay ="0.8s">
+              <li>Дизайн</li>
+              <li>Backend</li>
+              <li>Backbone</li>
+              <li>Linux</li>
+              <li>html5</li>
+          </ul>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+      <div class="closed_menu">
+            <div class="logo">
+                <img src="img/logo.png" alt=""/>
+            </div>
+
+            <div class="intro">
+                <h3>Мой первый</h3>
+                <h2>Блог портфолио</h2>
+            </div>
+
+            <div class="menu">
+                   <ul class="scroll">
+                       <li class="float passive"><a href="#hola">Обо мне</a></li>
+                       <li class="floating"><a href="#portfolio">Мои работы</a></li>
+                       <li class="flip"><a href="#main">Блог</a></li>
+                       <li class="flok"><a href="#main">Контакты</a></li>
+                   </ul>
+            </div>
+      </div>
+
+
+      <script src="wow.min.js"></script>
+      <script>
+          new WOW().init();
+      </script>
+  <script src ="main.js"></script>
+</body>
+</html>

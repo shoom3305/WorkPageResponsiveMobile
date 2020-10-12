@@ -1,0 +1,20 @@
+﻿@media(max-width: 869px){
+    .row .col{
+        width: 100%;
+    }
+    .row{
+        flex-flow: row wrap;
+    }
+    .col{
+        padding: 25px 50px;
+    }
+}
+@media(max-width: 1000px){
+  .active{
+      width: 300px;
+  }
+    .right{
+        right: 300px;
+    }
+
+}
